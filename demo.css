@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient( to right, rgba(104, 203, 232, 0.5), rgb(30, 181, 232));
+}
+h1{
+    /*background-color: cornflowerblue;*/
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+#remen{
+    width: 480px;
+    height: 180px;
+    background-color: #ffffff;
+    margin-left: 460px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+#remen p{
+    padding-top: 10px;
+    margin-left: 15px;
+}
+.line{
+    background-color: rgb(227, 226, 226);
+    width: 480px;
+    height: 2px;
+}
+.address{
+    margin-top: 15px;
+    float: left;
+    width: 40px;
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(243,243,243);
+    margin-left: 15px;
+}
+input{
+    width: 500px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 450px;
+    font-size: 25px;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    border: 2px solid rgb(243,243,243);
+
+}
+button{
+    width: 100px;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
+.box{
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    /*background-color: wheat;*/
+}
+.weather{
+    margin: 50px 0;
+    width: 100%;
+    height: 400px;
+    /*background-color: wheat;*/
+}
+ul{
+    display: flex;
+    flex-flow: row;
+    margin-left: 150px;
+}
+ul li {
+    width: 150px;
+    height: 200px;
+    background-color: #0d7abf;
+    margin-top: 10px;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+}
+ul li:hover{
+    background-color: #3fa9c7;
+}
+ul li div{
+    margin-top: 15px;
+}
+h2{
+    margin-left: 10px;
+}
+#updatetime{
+    position: relative;
+    top: -20px;
+    left: 100px;
+}
+#wendu{
+    font-size: 50px;
+    margin-left: 15px;
+
+}
